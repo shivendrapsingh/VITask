@@ -1,0 +1,61 @@
+body{
+    margin:0;
+}
+#header{
+    background:#009999;
+    width:1366px;
+    height:auto;
+    padding-top:1%;
+    padding-bottom: 1%;
+    }
+
+#sign{ background:#009999;
+    font-size:30px;
+    list-style-type: none;
+    color:white;
+    padding:1%;
+    margin-top:0;
+    }
+#sign li{
+    float:left;
+    display: block;
+}
+#logo a{
+    color:#3399FF;
+    font-size:50px;
+    margin-top: -1%;
+    margin-left: 3%;
+    text-decoration:none;
+}
+#signout{
+    margin-left: 60%;
+}
+#ask{
+    color:white;
+}
+#logo a:hover{
+    color:white;
+    text-transform: lowercase;
+}
+#logo:hover #ask{
+    color:#3399FF;
+    text-transform: uppercase;
+}
+#signout:hover{
+    text-shadow: 1px 1px 1px white;
+}
+#footer{
+    height: auto;
+    bottom:0;
+    position: absolute;
+    background:#009999;
+    width:1366px;
+    padding-bottom: 3px;
+}
+#footer ul{
+    margin-left: 35%;
+}
+#footer ul li{
+    float:left;
+    margin-left:4%;
+}
